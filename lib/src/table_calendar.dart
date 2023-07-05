@@ -460,6 +460,8 @@ class _TableCalendarState<T> extends State<TableCalendar<T>> {
                 headerTitleBuilder: widget.calendarBuilders.headerTitleBuilder,
                 focusedMonth: value,
                 focusedYear: value,
+                onLeftYearTap: () {},
+                onRightYearTap: () {},
                 onLeftChevronTap: _onLeftChevronTap,
                 onRightChevronTap: _onRightChevronTap,
                 onHeaderTap: () => widget.onHeaderTapped?.call(value),

@@ -27,6 +27,8 @@ Widget setupTestWidget({
     textDirection: TextDirection.ltr,
     child: Material(
       child: CalendarHeader(
+        onLeftYearTap: () {},
+        onRightYearTap: () {},
         focusedMonth: focusedMonth,
         calendarFormat: CalendarFormat.month,
         headerStyle: headerStyle,
